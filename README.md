@@ -1,13 +1,13 @@
 SNSViewDemo
 ===========
 
-ソーシャル投稿ツール（？）デモ	
+ソーシャル投稿ツールの使い方	
 
 －－－－－－－－－－－－－－－－－－
 
 ①　ツールの長所                                         
-　－　facebook,twitter,line,google+,mail投稿機能は簡単に出来る。                     
-　－　SNSShareViewは別にしたのでボタンの位置、画面をカスタマイズするのは簡単に出来る。
+　－　facebook,twitter,line,google+,mail投稿機能が簡単に出来る。                     
+　－　SNSShareViewは別にしたのでボタンの位置、画面のカスタマイズを容易に行うことが出来る。
 　
 －－－－－－－－－－－－－－－－－－－
 
@@ -19,8 +19,8 @@ SNSViewDemo
 ＋　必要なフレームワーク					
 
 　// Twitter						
-　－　Twitter+OAuth <単品の場合と同様になる>					
-　－　YAJLiOS		  <単品の場合と同様になる>					
+　－　Twitter+OAuth 					
+　－　YAJLiOS					
 
 　// Facebook						
 　－　FacebookSDK					
@@ -56,7 +56,7 @@ SNSViewDemo
 ＋　ビュー設定のところに：Other Linker Flags: -ObjC				
 ＋　Google+用のscheme					
 ＋　Facebook用のscheme				
-＋　ARCじゃないのクラス：-fno-objc-arc　を追加する				
+＋　ARCクラス以外の場合、：-fno-objc-arc　を追加する				
 ＋　AppDelegate.mにFacebook,Goolge+用の設定を入れる
 
 －－－－－－－－－－－－－－－－－－－	
@@ -87,7 +87,7 @@ SNSViewDemo
 
 －－－－－－－－－－－－－－－－－－－	
 
-⑤　具体的にはSNSViewDemoに参考をするようにお願いします。
+⑤　具体的にはSNSViewDemoを参考にしてください。
 
 －－－－－－－－－－－－－－－－－－－			
 
