@@ -1,18 +1,24 @@
 SNSViewDemo
 ===========
 
-ソーシャル投稿ツール（？）デモ							
-－－－－－－－－－－－－－－－－－－						                                     
-①　ツールの長所                                         
-　－　facebook,twitter,line,google+,mail投稿機能は簡単に出来る。                                                 
-　－　SNSShareViewは別にしたのでボタンの位置、画面をカスタマイズするのは簡単に出来る。
-－－－－－－－－－－－－－－－－－－－				
-[![](http://s13.postimg.org/eglpodufr/SNSShare_View_Image.png)](http://s13.postimg.org/eglpodufr/SNSShare_View_Image.png)
-－－－－－－－－－－－－－－－－－－－				
-②　							
-＋　必要なフレームワーク			
+ソーシャル投稿ツール（？）デモ	
 
-  // Twitter						
+－－－－－－－－－－－－－－－－－－
+
+①　ツールの長所                                         
+　－　facebook,twitter,line,google+,mail投稿機能は簡単に出来る。                     
+　－　SNSShareViewは別にしたのでボタンの位置、画面をカスタマイズするのは簡単に出来る。
+　
+－－－－－－－－－－－－－－－－－－－
+
+[![](http://s13.postimg.org/eglpodufr/SNSShare_View_Image.png)](http://s13.postimg.org/eglpodufr/SNSShare_View_Image.png)
+
+－－－－－－－－－－－－－－－－－－－	
+
+②　							
+＋　必要なフレームワーク					
+
+　// Twitter						
 　－　Twitter+OAuth <単品の場合と同様になる>					
 　－　YAJLiOS		  <単品の場合と同様になる>					
 
@@ -42,15 +48,19 @@ SNSViewDemo
 　−　MBProgressHUD				
 　−　CustomIOS7AlertView					
 　−　BTButton				
-　−　iToast						
-－－－－－－－－－－－－－－－－－－－					
+　−　iToast					
+
+－－－－－－－－－－－－－－－－－－－	
+
 ③　設定						
 ＋　ビュー設定のところに：Other Linker Flags: -ObjC				
 ＋　Google+用のscheme					
 ＋　Facebook用のscheme				
 ＋　ARCじゃないのクラス：-fno-objc-arc　を追加する				
-＋　AppDelegate.mにFacebook,Goolge+用の設定を入れる				
-－－－－－－－－－－－－－－－－－－－					
+＋　AppDelegate.mにFacebook,Goolge+用の設定を入れる
+
+－－－－－－－－－－－－－－－－－－－	
+
 ④　SNSShareを追加する					
 ＋　表示したいControllerにController.mファイルに下記のようにSNSShareビューを追加する			
 	SNSShareViewController* snsShare = [[SNSShareViewController alloc] init];			
@@ -60,8 +70,7 @@ SNSViewDemo
     snsShare.view.frame = CGRectMake(0, screenSize.height - SnsShareSizeHeight, SnsShareSizeWidth, SnsShareSizeHeight);					
     [snsShare didMoveToParentViewController:self];			
 	
-＋　投稿結果を取るようにSnSShareResultDelegateのメーソッドを追加する				
-SNSShareResultDelegate				
+＋　投稿結果を取るようにSNSShareResultDelegateのメーソッドを追加する				
 - (void)shareSucceeded:(int)skSNSmode				
 {				
     NSLog(@"shareSucceeded::%d:",skSNSmode);				
@@ -74,9 +83,12 @@ SNSShareResultDelegate
     NSLog(@"shareFailed::%d:",skSNSmode);			
     [_snsToast setText:@"投稿に失敗しました"];				
     [_snsToast show];			
-}			
-－－－－－－－－－－－－－－－－－－－			
-⑤　具体的にはSNSViewDemoに参考をするようにお願いします。				
+}
+
+－－－－－－－－－－－－－－－－－－－	
+
+⑤　具体的にはSNSViewDemoに参考をするようにお願いします。
+
 －－－－－－－－－－－－－－－－－－－			
 
 以上です。
