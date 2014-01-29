@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4AA7DEE1895F1AD0017482F"
-               BuildableName = "SNSViewDemo.app"
+               BuildableName = "SNSShareViewDemo.app"
                BlueprintName = "SNSShareViewDemo"
                ReferencedContainer = "container:SNSShareViewDemo.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4AA7E0F1895F1AD0017482F"
-               BuildableName = "SNSViewDemoTests.xctest"
+               BuildableName = "SNSShareViewDemoTests.xctest"
                BlueprintName = "SNSShareViewDemoTests"
                ReferencedContainer = "container:SNSShareViewDemo.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4AA7DEE1895F1AD0017482F"
-            BuildableName = "SNSViewDemo.app"
+            BuildableName = "SNSShareViewDemo.app"
             BlueprintName = "SNSShareViewDemo"
             ReferencedContainer = "container:SNSShareViewDemo.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4AA7DEE1895F1AD0017482F"
-            BuildableName = "SNSViewDemo.app"
+            BuildableName = "SNSShareViewDemo.app"
             BlueprintName = "SNSShareViewDemo"
             ReferencedContainer = "container:SNSShareViewDemo.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4AA7DEE1895F1AD0017482F"
-            BuildableName = "SNSViewDemo.app"
+            BuildableName = "SNSShareViewDemo.app"
             BlueprintName = "SNSShareViewDemo"
             ReferencedContainer = "container:SNSShareViewDemo.xcodeproj">
          </BuildableReference>

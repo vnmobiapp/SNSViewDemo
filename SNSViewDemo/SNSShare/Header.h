@@ -11,13 +11,14 @@
 #define SNSViewDemo_Header_h
 
 /* TwitterのID */
-#define		TwitterConsumerKey		@"iMtKFPgsve2nT5FCg8OHQ"
-#define		TwitterConsumerSecret	@"0A5weL86v8hdBlylvwxwEIGBXCwEOjgpLMNty2EzFrY"
+#define		TwitterConsumerKey		@"NByVFnkwLDmoEzCp3hJY7A"
+#define		TwitterConsumerSecret	@"VC09rwsh6aTaEYBxIN20gCcMMXxqMAWY8JFBSB5Hc"
+
 /* Google_PlusのID */
 #define     kClientId               @"678205940706-mockd4ak6eubm8vi835a9i2jlipblcqk.apps.googleusercontent.com"
 
 /* FacebookのID */
-#define FacebookAppId @"fb502435656543851"
+#define FacebookAppId @"fb595608587182748"
 
 /* サイズ */
 #define SnsShareSizeWidth   320

@@ -27,24 +27,24 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb502435656543851</string>
+				<string>fb595608587182748</string>
 			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>jp.co.moregames.SNSViewDemo</string>
+			<string>jp.co.moregames.SNSShareViewDemo</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>jp.co.moregames.SNSViewDemo</string>
+				<string>jp.co.moregames.SNSShareViewDemo</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>502435656543851</string>
+	<string>595608587182748</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
